@@ -1,0 +1,397 @@
+/* ******************* */
+/* SimpleCitySequence1 */
+/* ******************* */
+
+/* Sequence container */
+div.simple-city-seq1-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4d4d4d;
+  z-index: -2000;
+}
+
+/* Background layers*/
+
+  /* Their background-sizes must be established in the code, as they depend on the number
+     of slides (is the only way I have found to prevent problems when the user
+     has her browser with a "weird" zoom level). It seems that way I do not
+     need the repeat-x */
+
+
+div.background-dessert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;      
+  height: 45%;
+  overflow: hidden;
+  z-index: -1000;
+  background: transparent url(background_dessert_1371x530_100dpi.png); /* repeat-x;*/  
+}
+
+div.background-clouds {
+  position: fixed;
+  top: -7.6%;
+  left: 0;
+  width: 100%;      
+  height: 28.75%;
+  overflow: hidden;
+  z-index: -900;
+  background: transparent url(clouds_1018x337_100dpi.png);/* repeat-x;*/
+}
+
+div.background-skyscrapers {
+  position: fixed;
+  top: 4%;
+  left: 0;
+  width: 100%;      
+  height: 60%;
+  overflow: hidden;
+  z-index: -700;
+  background: transparent url(background_skyscrapers_2225x705_100dpi.png);/* repeat-x;*/  
+}
+
+div.background-houses {
+  position: fixed;
+  top: 40%;
+  left: 0;  
+  width: 100%;      
+  height: 36%;
+  overflow: hidden;
+  z-index: -500;
+  background: transparent url(background_houses_2814x417_100dpi.png);/* repeat-x;*/  
+}
+
+
+/* It is important that the foreground elements are absolutely
+ * positioned. This way we can create easily "thumbnails" of 
+ * each slide positioning them inside a div of any size and position.
+ */
+
+/* Slide commons for slides in sequence1 */
+.simple-city-seq1-slide {
+  position: absolute;
+  top : 0;
+  left: 0;      
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent; 
+  /*z-index: 5000;*/
+}
+
+div.foreground-billboard {
+  position: absolute;
+  top: 3%;   
+  left: 11%;      
+  width: 78%;      
+  height: 21%;
+  overflow: hidden;
+  z-index: 200;  
+  background: transparent url(billboard_1459x249_100dpi.png) no-repeat;
+  background-size: 100% 100%; /* We take the full div with the image, no matter what */
+} 
+
+div.foreground-billboard-textarea {
+  position: absolute; /* this will be relative to the foreground-billboard */
+  top: 26.8%;   
+  left: 3.7%;      
+  width: 92.6%;      
+  height: 55.8%;
+  overflow: visible; /* This allows for shadows etc. to show. As long as the div container 
+  is big enough, it should not create problems */
+  z-index: 201;  
+  background: transparent;  
+}
+
+/* SLIDE STYLE 1: simple-city-seq1-slide1 (with and without title) */
+
+div.foreground-trafficsign {
+  position: absolute;
+  top: 26.56%;   
+  left: 11%;      
+  width: 78%;      
+  bottom: 2%;
+  overflow: hidden;  
+  z-index: 200;  
+  background: transparent url(big_sign_1420x881_100dpi.png) no-repeat;  
+  background-size: 100% 100%; /* We take the full div with the image, no matter what */
+}
+
+div.foreground-trafficsign-no-title {
+  position: absolute;
+  top: 3%;   
+  left: 11%;      
+  width: 78%;      
+  bottom: 2%;
+  overflow: hidden;  
+  z-index: 200;  
+  background: transparent url(big_sign_1420x881_100dpi.png) no-repeat;  
+  background-size: 100% 100%; /* We take the full div with the image, no matter what */
+}
+
+div.foreground-trafficsign-blueish-no-title {
+  position: absolute;
+  top: 3%;   
+  left: 11%;      
+  width: 78%;      
+  bottom: 2%;
+  overflow: hidden;  
+  z-index: 200;  
+  background: transparent url(big_sign_blueish_1420x881_100dpi.png) no-repeat;  
+  background-size: 100% 100%; /* We take the full div with the image, no matter what */
+}
+
+div.foreground-trafficsign-textarea-buffer {
+  /* This is used as a buffer to leave some room for overflow in the
+   * contents of the traffic sign (required to cope with limitations
+   * in the layouts), but not enough to allow these contents
+   * to overflow in the support of traffic sign (which looks quite terrible
+   * when it happens, though it only happens in really difficult circumstances, as 
+   * when the user changes the orientation of its mobile device in the
+   * middle of a presentation) */
+  position: absolute; /* this will be relative to the foreground-trafficsign[-no-title] */
+  top: 8%; 
+  left: 3.5%;      
+  right: 3.5%;      
+  bottom: 14%;
+  overflow: hidden; 
+  z-index: 201;  
+  background: transparent;  
+}
+
+div.foreground-trafficsign-textarea {
+  position: absolute; /* this will be relative to the foreground-trafficsign-textarea-buffer */
+  top: 1.5%;  /* Generally speaking, because of layout limitations, it seems
+               safer to leave a small margin on top than in the bottom */ 
+  left: 2.5%;      
+  right: 2.5%;      
+  bottom: 3%;
+  overflow: visible; /* I have tried overflow-y visible and overflow-x hidden, for a
+  better result in small screens in portrait, but when those two properties are set like
+  that, it turns out that visible becomes auto, and scroll bars appear */
+  z-index: 201;  
+  background: transparent;  
+}  
+
+
+h1.simple-city-seq1-slide1 {
+	position: absolute;
+	top: 0;
+	left: 0;	
+  width: 100%;
+  height: 100%;  
+  margin:0 auto;   
+  color: #111111;
+  text-align: center; /* H1 is always title, and I want them centered */
+  /* The other H2,H3,H4 may appear in different contexts, so the layout
+     algorithm will determine their alignment */
+  
+  line-height: 1;
+  font-weight: normal;
+  font-family: Impact, Charcoal, sans-serif;
+  
+  /* It seems that jSlabify does not take into consideration shadows to measure
+  font sizes so characters like p do not have full shadows... */ 
+  text-shadow: 0px 2px 1px #BBBBBB;      
+}
+
+h2.simple-city-seq1-slide1 { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /*width: 100%;
+  height: 100%;*/ 
+  margin:0 auto;   
+  color: #111111;
+  
+  font-weight: normal;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+h3.simple-city-seq1-slide1 {      
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /*width: 100%;
+  height: 100%;*/  
+  margin:0 auto; 
+  color: #111111;  
+  
+  font-weight: normal;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+h4.simple-city-seq1-slide1 {      
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /*width: 100%;
+  height: 100%;*/
+  margin:0 auto;  
+  color: #111111;
+  
+  font-weight: normal;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+figcaption.simple-city-seq1-slide1 {      
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /*width: 100%;
+  height: 100%;*/
+  margin:0 auto;  
+  color: #111111;
+  
+  font-weight: normal;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+img.simple-city-seq1-slide1 {
+	border-style:solid;
+  border-width:2px;
+  border-color: #4d4d4d;
+	/*box-shadow: 1px 1px 2px white;*/
+	border-radius: 3px;
+}
+
+
+/* Classes for the layouts */
+
+div.simple-city-layout-single-img {
+	position: absolute;
+  top: 0;
+  left: 0;     
+  right: 0;                   
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+  z-index: 201;
+  background: transparent;  
+  padding-top: 4px; /* Leave some room for margins and shadows in the image */
+  padding-bottom: 4px; /* Leave some room for margins and shadows in the image */
+}
+
+div.simple-city-layout-single-h {
+  position: absolute;
+  top: 0;
+  left: 0;     
+  right: 0;                   
+  bottom: 0;
+  margin: auto;
+  overflow: visible;
+  z-index: 201;
+  background: transparent;
+}
+
+div.simple-city-layout-img-figcaption {
+  position: absolute;                     
+  margin: auto;
+  overflow: hidden;
+  z-index: 201;
+  background: transparent;  
+  padding-top: 4px; /* Leave some room for margins and shadows in the image */
+  padding-bottom: 4px; /* Leave some room for margins and shadows in the image */
+}
+
+div.simple-city-layout-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;     
+  right: 0;                     
+  height: 48%;   
+  margin: auto;
+  overflow: visible;
+  z-index: 201;
+  background: transparent;  
+  padding-top: 4px; /* Leave some room for margins and shadows in the image */
+  padding-bottom: 4px; /* Leave some room for margins and shadows in the image */
+}
+
+div.simple-city-layout-img-bottom {
+  position: absolute;
+  top: 52%;
+  left: 0;     
+  right: 0;                     
+  height: 48%; 
+  margin: auto;
+  overflow: visible;
+  z-index: 201;
+  background: transparent;  
+  padding-top: 4px; /* Leave some room for margins and shadows in the image */
+  padding-bottom: 4px; /* Leave some room for margins and shadows in the image */
+}
+
+div.simple-city-layout-img-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;                      
+  width: 48%; 
+  margin: auto;
+  overflow: visible;
+  z-index: 201;
+  background: transparent;  
+  padding-top: 4px; /* Leave some room for margins and shadows in the image */
+  padding-bottom: 4px; /* Leave some room for margins and shadows in the image */
+}
+
+div.simple-city-layout-img-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;                       
+  width: 48%; 
+  margin: auto;
+  overflow: visible;
+  z-index: 201;
+  background: transparent;  
+  padding-top: 4px; /* Leave some room for margins and shadows in the image */
+  padding-bottom: 4px; /* Leave some room for margins and shadows in the image */
+}
+
+img.simple-city-layout-single-img {
+  display: block;
+  height: 100%; 
+  width: auto;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+img.simple-city-layout-full-width {
+  /* This is vertically centered */  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: auto; 
+  width: 100%;  
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+img.simple-city-layout-full-height {
+  /* This is horizontally centered */
+  display: block;
+  height: 100%; 
+  width: auto;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+
+/* ************************** */
+/* End of SimpleCitySequence1 */
+/* ************************** */

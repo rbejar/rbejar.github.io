@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">  
+  <title>Focalize.js example</title>
+  <link rel="stylesheet" type="text/css" href="focalizejs-style.css">
+  <link rel="stylesheet" type="text/css" href="simple-city-style/simple-city-style.css">
+      
+  <script src="lib/jquery-2.0.3.js"></script>
+  <script src='lib/jquery.transit.js'></script>
+  <script src="lib/jquery.fullscreen-0.3.5.js"></script>     
+  <script src="lib/textFit.js"></script>  
+  <script src="lib/motio.js"></script>   
+  <script src="lib/jquery.hammer.js"></script> <!-- v1.05; v1.06dev does not work -->
+  <script src="src/Focalize.js"></script>
+  <script src="simple-city-style/simple-city-style.js"></script>  
+  <script>Focalize.load();</script>
+</head>
+<body>
+
+<div class="focalize-presentation">
+  <div class="focalize-sequence" data-seq-name="SimpleCitySequence1">
+   	<section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle">    
+          <h2>Arquitectura de software</h2>
+          <h3>Una perspectiva ágil</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Arquitectura de Software. ¿Para qué?</h1>
+          <h2>"La arquitectura de un software es su estructura fundamental, expresada como componentes, sus propiedades, y las relaciones entre ellos y con el entorno"</h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Arquitectura de Software. ¿Para qué?</h1>
+          <h2>"El diseño arquitectural es el conjunto de decisiones para que el sistema alcance los objetivos marcados (comportamiento, calidad)"</h2>
+		  <h3>Más o menos podemos mapear comportamiento con requisitos funcionales y calidad con no funcionales</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle">
+          <h2>Esto es lo <strong>mínimo</strong> que se nos puede exigir: que el sistema que desarrollemos cumpla los requisitos que nos han establecido (comportamiento y calidad, funcionales y no funcionales)</h2>
+          <h3>Y que se termine en plazo y presupuesto (triángulo de hierro), pero ese es un tema para otro momento</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Decisiones de diseño</h1>
+          <h2>Tomamos decisiones de diseño para cumplir los requisitos de nuestros usuarios y clientes</h2>
+          <h3>Y si somos buenos profesionales, para satisfacer las necesidades, presentes y futuras, de los desarrolladores</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Decisiones de diseño</h1>
+          <h2>"Diseño arquitectural: decisiones para que el sistema alcance los objetivos marcados (comportamiento, calidad). Diseño no arquitectural: lo demás"</h2>
+          <h3>Distinguimos diseño arquitectural del no arquitectural por si las decisiones afectan a todo el sistema o no (por su alcance), pero <strong>por nada más</strong></h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Decisiones de diseño</h1>
+          <h2>Para diseñar un sistema hay que tomar muchas decisiones sobre el mismo: algunas afectarán a todo el sistema (y a esas las llamamos arquitecturales), otras a partes del mismo (por ejemplo a un módulo) y otras a partes pequeñas (por ejemplo a una única función). Pero <strong>todas son decisiones de diseño</strong></h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle">
+          <h2>¿De diseño, o de implementación?</h2>
+          <h3>La separación entre diseño e implementación cada vez está más cuestionada (<em>The Agile Manifesto</em> se escribe en Febrero de 2001)</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1><em>Code as Design: Three Essays by Jack W. Reeves</em></h1>
+          <h2>El primer artículo se publicó en 1992, el segundo es una revisión publicada en 2005 y el tercero un comentario relacionado con el primero. <a href="http://www.developerdotstar.com/mag/articles/reeves_design_main.html" target="_blank"><strong>Leedlos</strong></a></h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1><em>Code as Design: Three Essays by Jack W. Reeves</em></h1>
+          <h2>"In software engineering, we desperately need good design at all levels. In particular, we need good top level design..."</h2>
+          <h2>"...these tools and notations are not a software design. Eventually, we have to create the real software design, and it will be in some programming language... we should not be afraid to code our designs as we derive them."</h2>
+          <h2>"I am not arguing that we should not 'do design'... I simply insist that you have not completed the process until you have written and tested the code."</h2>
+          <h2>"The source code may be the master design document, but it is seldom the only one necessary."</h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Patrones de diseño y estilos arquitecturales</h1>
+          <h2>Patrones y estilos son <strong>medios</strong> para ayudarnos a crear buenos sistemas (con buenos diseños), no son <strong>fines</strong> en sí mismos</h2>
+          <h3>Podemos tener una arquitectura llena de patrones y estilos conocidos y que aún así sea muy mala (p.ej. si el sistema no cumple sus requisitos)</h3>
+          <h2>La aplicación adecuada de patrones de diseño y estilos arquitecturales es una técnica (aunque no la única) para ayudarnos a crear buenos diseños y arquitecturas</h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle">
+          <h2>Un patrón de diseño o estilo arquitectural que no se refleje de alguna forma en el código de nuestro sistema no será parte de la arquitectura del mismo</h2>
+          <h3>Aunque es posible que no podamos deducir a partir del código algunos de los patrones y estilos que se han aplicado, y por qué se han aplicado. Esa es una buena razón para crear y mantener documentación arquitectural</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>¿Construcción de software?</h1>
+          <h2>Plantear que el desarrollo de software es análogo a la construcción de edificios (el arquitecto crea los planos y los albañiles construyen el edificio) fue una mala elección y hoy en día ya no resulta útil</h2>
+          <h3><strong>El software no se construye</strong> (ni se fabrica), <strong>se diseña</strong> (la construcción, si nos empeñamos en mantener la analogía, es automática gracias al compilador)</h3>
+          <h3>Las casas no cambian sustancialmente una vez se han construido, ni en general pueden usarse hasta que están terminadas. El software cambia, y se usa, tras cada lanzamiento (hoy en día pueden ser diarios)</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>¿Construcción de software?</h1>            
+          <figure>
+            <img src="assets/VideoSoftEngThumbnail.png">
+            <figcaption> 
+            <a href="https://youtu.be/zDEpeWQHtFU" target="_blank">
+            Real Software Engineering, by Glenn Vanderburg
+            </a>
+            </figcaption>
+          </figure>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Resulta que no era así...</h1>            
+          <figure>
+            <img src="assets/VideoSoftEngThumbnail2.png">
+            </figcaption>
+          </figure>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>...sino así</h1>            
+          <figure>
+            <img src="assets/VideoSoftEngThumbnail3.png">
+            </figcaption>
+          </figure>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>¿Jardinería de software?</h1>
+          <h2>Que el desarrollo de software tiene más en común con la jardinería que con la construcción de edificios es un analogía atractiva</h2>
+          <h3>Un jardín se diseña... hasta cierto nivel de detalle (no decides de antemano cuántas flores tiene que tener cada rosal)</h3>
+          <h3>El jardín crece, evoluciona, y requiere un mantenimiento constante</h3>
+          <h2>Nos podemos plantear que quizás el software se deba "cultivar", no construir</h2>
+          <h3>No deja de ser una analogía, y por tanto hay que evitar llevarla demasiado lejos</h3>
+        </section>
+    	<section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle_Blueish">
+          <h2>En arquitectura de paisajes hay un técnica de diseño evolutivo para construir caminos al aire libre: <em>Espera un año, mira por dónde transita la gente de forma natural y cuánta gente pasa. Después crea los caminos a lo largo de esas líneas, del ancho que haga falta</em></h2>
+          <h2>El diseño surge de la demanda de los usuarios, no se impone a priori. Aunque esto sea de dudosa aplicación al diseño de productos [software], es una fuente de inspiración para el <strong>diseño ágil</strong></h2>
+          <h2><strong>No como excusa para evitar un diseño cuidadoso, sino como inspiración para tener un diseño adaptable</strong></h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Entonces, ¿qué pasa con la arquitectura de software?</h1>
+          <h2>La arquitectura es dinámica. Puede cambiar con cada línea de código añadida o quitada. Evoluciona conforme se programa</h2>
+          <h2>Los diagramas y documentos no son el diseño real, el código fuente es el diseño real</h2>
+          <h3>Esto no significa que todo lo que nos importa de la arquitectura se pueda deducir del código fuente (no se puede). Pero si que significa que da igual lo que pongamos en la documentación de la arquitectura si no refleja correctamente el sistema real</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Por lo tanto...</h1>
+          <h2>Un arquitecto de software que no está en contacto con el código fuente no está en contacto con la arquitectura real</h2>
+          <h3>Se les ha llamado "arquitectos de Power Point", "arquitectos de torre de marfil" o "arquitectos astronautas" (tan lejos del código que igual podrían estar en el espacio)</h3>
+          <h2>Todos los programadores son arquitectos hasta cierto punto, quieran esa responsabilidad o no</h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle_Blueish">
+          <h2>Si nuestra analogía es que el desarrollo de software es como la construcción de edificios...</h2>
+          <h2>Si no se considera el código como la arquitectura real...</h2>
+          <h2>Y si hay uno o más arquitectos astronautas...</h2>
+          <h2>La arquitectura va a <strong>degradarse con el tiempo</strong>, porque...</h2>
+        </section>
+      	<section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle_Blueish">
+          <h2>…los arquitectos de Power Point no tocan el código y no pueden detectar cuándo este se degrada ni ayudar a corregir esta degradación</h2>
+          <h3>Conforme más avanza el diseño menos influencia tienen sobre el mismo. Llega un punto en que los programadores ignoran a los arquitectos de Power Point, porque hace mucho tiempo que estos no saben casi nada sobre la arquitectura real del sistema</h3>
+          <h2>...los arquitectos de Power Point pasan mucho tiempo creando diseños grandes y muy detallados</h2>
+          <h3>Lo que resulta un desperdicio cuando hay que cambiarlos</h3>
+          <h2>...los programadores no creen que la arquitectura sea su problema, y no le prestan atención (causando así aún más degradación)</h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Entonces, ¿diseñamos y documentamos la arquitectura o no?</h1>
+          <h2>El diseño por adelantado y la documentación arquitectural está bien</h2>
+          <h3>Discutir y evaluar alternativas, prever problemas, plantear líneas maestras</h3>
+          <h3>Exponer razones, alternativas, restricciones que no se pueden deducir del código, es informativa para otros desarrolladores, de un nivel de abstracción más alto que el código y puede resaltar elementos importantes o complejos</h3>
+          <h2>Siempre que recordemos que <strong>la arquitectura inicial puede mejorarse</strong></h2>
+          <h2>Que la arquitectura inicial <strong>debe concretarse</strong></h2>
+          <h2>Que los arquitectos tienen que <strong>tocar el código</strong></h2>
+          <h2>Que el diseño debe ser <strong>ágil</strong></h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Entonces, ¿diseñamos y documentamos la arquitectura o no?</h1>
+          <h2>Los modelos no son especificaciones. El código es el diseño real. Los diagramas son una inspiración, no una especificación</h2>
+          <h3>La documentación completa de diseño se puede crear después de que el código se ha completado si hace falta para algo</h3>
+          <h2>Todos los modelos tienen problemas. El diseño evolucionará conforme se programa y se aprende más del problema que estamos resolviendo y del sistema que estamos construyendo</h2>
+          <h2>No podemos diseñar la arquitectura que queremos para nuestro sistema cuando esté "terminado", dentro de un año, si queremos lanzar la primera beta en dos meses y luego lanzar versión cada dos semanas</h2>
+          <h2>La integridad arquitectural de un sistema requiere que todos los desarrolladores tengan ideas compatibles y coherentes: <strong>comunicación</strong></h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle_Blueish">
+          <h2>Las metodologías ágiles consideran que tener una buena arquitectura es tan importante que todas las acciones de modelizado y programación durante la vida del software se consideran arquitectura, y <strong>todos</strong> los programadores son corresponsables de la arquitectura del sistema en el que trabajan</h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Modelizado <em>just-in-time</em></h1>
+          <h2>Se puede ir del código al modelo, y del modelo al código, cuando sea necesario</h2>
+          <h3>Cambias el nivel de abstracción conforme te hace falta durante el trabajo diario</h3>
+          <h2>Para hacer esto los arquitectos de Power Point no sirven: el modelo ideal es el de <strong>arquitecto / "maestro programador"</strong></h2>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle">
+         <h2>:-)</h2>
+        </section>
+  </div>
+</div>
+</body>
+</html>
