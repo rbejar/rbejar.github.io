@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">  
-  <title>Focalize.js example</title>
+  <title>Arquitectura de software: una perspectiva ágil</title>
   <link rel="stylesheet" type="text/css" href="focalizejs-style.css">
   <link rel="stylesheet" type="text/css" href="simple-city-style/simple-city-style.css">
       
@@ -23,6 +23,9 @@
    	<section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle">    
           <h2>Arquitectura de software</h2>
           <h3>Una perspectiva ágil</h3>
+          <h2>    </h2><!-- Create some space-->
+          <h2>    </h2><!-- Create some space-->
+          <h4>Salvo que se indique lo contrario, este trabajo es (c) 2015 <a href="http://www.rubenbejar.com/" target="_blank">Rubén Béjar</a>, bajo una <a href="https://creativecommons.org/licenses/by-sa/3.0/es/" target="_blank">licencia Creative Commons Reconocimiento-CompartirIgual 3.0 España</a></h4>
         </section>
         <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
           <h1>Arquitectura de Software</h1>
@@ -31,9 +34,9 @@
         </section>
         <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
           <h1>Arquitectura de Software. ¿Para qué?</h1>
-          <h2>Las decisiones arquitecturales son las que permiten que el sistema cumpla sus requisitos de calidad y de comportamiento</h2>
-		  <h3>Más o menos podemos mapear comportamiento con requisitos funcionales y calidad con no funcionales</h3>
+          <h2>Las decisiones arquitecturales son las que permiten que el sistema cumpla sus requisitos de calidad y de comportamiento</h2>		  
 		  <h4>Clements, P., Bachmann, F., Bass, L., Garlan, D., Ivers, J., Little, R., Merson, P., Nord, R., and Stafford, J. Documenting Software Architectures: Views and Beyond (p. 6)</h4>
+		  <h3>Más o menos podemos mapear comportamiento con requisitos funcionales y calidad con no funcionales</h3>
         </section>
         <section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle">
           <h2>Esto es lo <strong>mínimo</strong> que se nos puede exigir: que el sistema que desarrollemos cumpla los requisitos que nos han establecido (comportamiento y calidad, funcionales y no funcionales)</h2>
@@ -46,7 +49,8 @@
         </section>
         <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
           <h1>Decisiones de diseño</h1>
-          <h2>"Diseño arquitectural: decisiones para que el sistema alcance los objetivos marcados (comportamiento, calidad). Diseño no arquitectural: lo demás"</h2>
+          <h2>Diseño arquitectural: decisiones para que el sistema alcance los objetivos marcados (comportamiento, calidad). Diseño no arquitectural: lo demás</h2>
+          <h4>Clements, P., Bachmann, F., Bass, L., Garlan, D., Ivers, J., Little, R., Merson, P., Nord, R., and Stafford, J. Documenting Software Architectures: Views and Beyond (p. 6)</h4>
           <h3>Distinguimos diseño arquitectural del no arquitectural por si las decisiones afectan a todo el sistema o no (por su alcance), pero <strong>por nada más</strong></h3>
         </section>
         <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
@@ -100,6 +104,10 @@
           <h1>Resulta que no era así...</h1>            
           <figure>
             <img src="assets/VideoSoftEngThumbnail2.png">
+            <figcaption>                        
+            <p style="text-align:right">
+            (c) 2015, Glenn Vanderburg
+            </p>
             </figcaption>
           </figure>
         </section>
@@ -107,6 +115,10 @@
           <h1>...sino así</h1>            
           <figure>
             <img src="assets/VideoSoftEngThumbnail3.png">
+            <figcaption>                        
+            <p style="text-align:right">
+            (c) 2015, Glenn Vanderburg
+            </p>
             </figcaption>
           </figure>
         </section>
@@ -138,7 +150,7 @@
         <section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle_Blueish">
           <h2>Si nuestra analogía es que el desarrollo de software es como la construcción de edificios...</h2>
           <h2>Si no se considera el código como la arquitectura real...</h2>
-          <h2>Y si hay uno o más arquitectos astronautas...</h2>
+          <h2>Y si hay uno o más arquitectos de Power Point...</h2>
           <h2>La arquitectura va a <strong>degradarse con el tiempo</strong>, porque...</h2>
         </section>
       	<section class="focalize-slide" data-slide-name="SimpleCitySlide1_NoTitle_Blueish">
@@ -170,14 +182,24 @@
           <h2>Las metodologías ágiles consideran que tener una buena arquitectura es tan importante que todas las acciones de modelizado y programación durante la vida del software se consideran arquitectura, y <strong>todos</strong> los programadores son corresponsables de la arquitectura del sistema en el que trabajan</h2>
         </section>
         <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
-          <h1>Modelizado <em>just-in-time</em></h1>
+          <h1>Modelizado cercano al código</h1>
+          <h2>Algunas metodologías ágiles proponen minimizar/eliminar el modelizado, aunque otras son neutrales al respecto</h2>
+          <h3>Y muchos desarrolladores que las usan lo encuentran imprescindible</h3>
+          <h2>En general, las metodologías ágiles buscan proporcionar valor al usuario lo antes posible en forma de funcionalidades completamente implementadas</h2>
+          <h3>Esto sugiere una aproximación "vertical" a la arquitectura: p.ej., diseñar en un sprint la parte de presentación, de dominio y de persistencia necesaria para alguna funcionalidad</h3>
+          <h3>También es buena idea identificar y abordar cuanto antes la funcionalidad que puede ser complicada desde el punto de vista arquitectural</h3>
+        </section>
+        <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
+          <h1>Modelizado cercano al código</h1>
           <h2>Se puede ir del código al modelo, y del modelo al código, cuando sea necesario</h2>
           <h3>Cambias el nivel de abstracción conforme te hace falta durante el trabajo diario</h3>
           <h2>Para hacer esto los arquitectos de Power Point no sirven: el modelo ideal es el de <strong>arquitecto / "maestro programador"</strong></h2>
           <h3>Un diseñador experimentado pasará menos tiempo programando y más con tareas de nivel más alto. Pero no debe despegarse totalmente del código</h3>
+          <h2>Evita el requisito de que alguien tenga que revisar y aprobar la arquitectura</h2>
+          <h3>Si su aprobación es tan importante, debería participar en el diseño y aprovechar para instruir al equipo</h3>
         </section>
         <section class="focalize-slide" data-slide-name="SimpleCitySlide1">
-        <h1>Bibliografía y lecturas recomendadas</h1>
+        <h1>Bibliografía y lecturas sugeridas</h1>
         <h2><a href="http://www.craiglarman.com/wiki/index.php?title=Book_-_Practices_for_Scaling_Lean_and_Agile"
         target="_blank">Craig Larman & Bas Vodde. Practices for Scaling Lean & Agile Development</a> (ch. 8, design & architecture)</h2>
         <h2><a href="http://www.sei.cmu.edu/library/abstracts/books/0321552687.cfm"
@@ -186,6 +208,7 @@
         <h2><a href="http://blog.codinghorror.com/it-came-from-planet-architecture/" target="_blank">Coding horror: it came from planet architecture</a></h2>
         <h2><a href="http://www.johndcook.com/blog/2008/10/27/why-there-will-always-be-programmers/" target="_blank">John D. Cook: why there will always be programmers</a></h2>
         <h2><a href="http://www.joelonsoftware.com/articles/fog0000000018.html" target="_blank">Joel on Software: don't let architecture astronauts scare you</a></h2>
+        <h3>Esta presentación se ha creado con <a href="https://github.com/rbejar/Focalize.js" target="_blank">Focalize.js</a></h3>
         </section>
   </div>
 </div>
