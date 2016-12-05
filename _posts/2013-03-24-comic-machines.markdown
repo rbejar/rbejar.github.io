@@ -6,20 +6,14 @@ layout: post
 link: http://www.rubenbejar.com/2013/03/comic-machines/
 slug: comic-machines
 title: Comic Machines
+share-img: http://www.rubenbejar.com/img/share-img/comicmachine1.png
 wordpress_id: 141
-categories:
+tags:
 - Clip Art
 - Creative Commons
-tags:
 - SVG
 ---
 
-A few comic-style machines and stuff I have created and used in a number of presentations. I am putting them in the public domain so you can do with them whatever you want. Attribution would be nice, but it is not required. You can find them in [Open Clip Art Library](http://openclipart.org/) too.
+A few [comic-style machines](/download/ComicMachines_SVG.zip) and stuff I have created and used in a number of presentations. I am putting them in the public domain so you can do with them whatever you want. Attribution would be nice, but it is not required. You can find them in [Open Clip Art Library](http://openclipart.org/) too.
 
-[nggallery id=2]
-
-[wpdm_file id=2]
-
-
-
-[CC0_1_0 work="Comic Machines"]
+<a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"> <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" /></a> To the extent possible under law, Rubén Béjar has waived all copyright and related or neighboring rights to Comic Machines. This work is published from: Spain.

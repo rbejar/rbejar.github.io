@@ -7,7 +7,7 @@ link: http://www.rubenbejar.com/2013/03/dao-de-jing-22/
 slug: dao-de-jing-22
 title: Dao De Jing (ch. 22)
 wordpress_id: 158
-categories:
+tags:
 - Daoism
 ---
 

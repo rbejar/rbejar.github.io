@@ -1,0 +1,150 @@
+/* OJO con los URLs relativos. Depende del navegador que
+sean dependientes a la hoja de estilos o a la página web,
+así que cuando pueda y los que pueda (deberían ser todos)
+los pondré absolutos */
+
+
+/* Body normal */
+body {font-family: sans-serif, serif; font-size: small;
+      color: rgb(0,0,0) }
+
+/* Body con el fondo negro */
+body.blackBackground {font-family: sans-serif, serif; font-size: small;
+                      color: rgb(255,255,255);
+                      background : rgb(0,0,0)}
+
+/* Párrafo normal */
+p { font-family: sans-serif, serif; font-size: small;
+    color: rgb(255,255,255);
+    text-align: justify }
+
+/* Párrafo alineado izquierda */
+p.alignleft { font-family: sans-serif, serif; font-size: small;
+              color: rgb(255,255,255);
+              text-align: left }
+
+/* Párrafo alineado derecha */
+p.alignRight { font-family: sans-serif, serif; font-size: small;
+              color: rgb(255,255,255);
+              text-align: right }
+
+
+/* Cabeceras normales */
+h1 {color: rgb(205, 195, 92)}
+h2 {color: rgb(200, 190, 87)}
+h3 {color: rgb(200, 190, 87)}
+h4 {color: rgb(205, 195, 92)}
+h5 {color: rgb(205, 195, 92)}
+h6 {color: rgb(205, 195, 92)}
+
+
+h1  {font-family: sans-serif, serif; font-weight: bold;
+     font-style: normal; font-size: 20pt }
+h2  {font-family: sans-serif, serif; font-weight: bold;
+     font-style: normal; font-size: 18pt }
+h3  {font-family: sans-serif, serif; font-weight: normal;
+     font-style: normal; font-size: 14pt }
+h4  {font-family: sans-serif, serif; font-weight: bold;
+     font-style: normal; font-size: 12pt }
+h5  {font-family: sans-serif, serif; font-weight: normal;
+     font-style: normal; font-size: 10pt }
+h6  {font-family: sans-serif, serif; font-weight: normal;
+     font-style: normal; font-size: 8pt }
+
+/* Div para el menú de la izquierda */
+div.menu { position: absolute; top: 150px; left: 5px;}
+
+/* Div para el contenido de las páginas con menu */
+div.withMenu { position: absolute; left: 190px; top: 160px;}
+
+/* Tabla con borde */
+table.withBorder { font-family: sans-serif, serif;
+        background : rgb(0, 0, 0);
+        border : thin solid rgb(255, 255, 225);
+        text-align: justify;
+        margin : 3px 3px 3px 3px; }
+
+/* Tabla sin borde */
+table.noBorder { font-family: sans-serif, serif;
+        background : rgb(0, 0, 0);
+        text-align: justify;
+        margin : 3px 3px 3px 3px; }
+
+
+/* Tabla gris */
+table.grey { font-family: sans-serif, serif;
+        background : rgb(60, 60, 60);
+        text-align: justify;
+        margin : 3px 3px 3px 3px; }
+        
+/* He tenido que definir color del texto para todos los
+   tipos de celdas, porque Netscape 4.x no coge el definido
+   para el body como hacen los demás (supongo que no 
+   implementa correctamente la herencia de estilos pero no
+   lo he comprobado) */
+
+/* Celda con borde */
+td.withBorder { color : rgb(255, 255, 255);
+                padding : 3px 3px 3px 3px;
+                border : thin solid rgb(255, 255, 225) }
+                
+/* Celda fina con borde */
+td.thinWithBorder { color : rgb(255, 255, 255);
+                padding : 1px 1px 1px 1px;
+                border : thin solid rgb(255, 255, 225) }
+
+/* Celdas con borde y fondo gris*/
+td.grey60WithBorder { color : rgb(255, 255, 255); 
+                    padding : 3px 3px 3px 3px;
+                    border : thin solid rgb(255, 255, 225);
+                    background : rgb(60, 60, 60)}
+
+td.grey30WithBorder { color : rgb(255, 255, 255); 
+                    padding : 3px 3px 3px 3px;
+                    border : thin solid rgb(255, 255, 225);
+                    background : rgb(30, 30, 30)}
+
+td.grey10WithBorder { color : rgb(255, 255, 255); 
+                    padding : 3px 3px 3px 3px;
+                    border : thin solid rgb(255, 255, 225);
+                    background : rgb(10, 10, 10)}
+
+
+/* Celda sin borde */
+td.noBorder { color : rgb(255, 255, 255);
+              padding : 3px 3px 3px 3px }
+              
+/* Celda fina sin borde */
+td.thinNoBorder { color : rgb(255, 255, 255);
+              padding : 0px 0px 0px 0px }
+
+
+/* Celda fondo gris y con borde */
+td.greyWithBorder { color : rgb(255, 255, 255);
+                    padding : 3px 3px 3px 3px;
+                    background : rgb (60, 160, 60); }
+
+
+/* Links estándar */
+a  { font-family: sans-serif, serif; font-size:small;
+     color : rgb(255,255,225);
+     text-decoration : underlined;}
+
+/* Links grandes */
+a.big  { font-family: sans-serif, serif; font-size:medium;
+         color : rgb(200,190,87);
+         text-decoration : underlined;}
+
+/* Remarcado en amarillo */
+b.yellow { font-family: sans-serif, serif; font-weight: bold;
+           color : rgb(200, 190, 87) }
+
+
+
+
+
+
+
+
+
+

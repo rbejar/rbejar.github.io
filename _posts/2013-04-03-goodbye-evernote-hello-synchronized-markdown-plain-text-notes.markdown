@@ -7,9 +7,8 @@ link: http://www.rubenbejar.com/2013/04/goodbye-evernote-hello-synchronized-mark
 slug: goodbye-evernote-hello-synchronized-markdown-plain-text-notes
 title: Goodbye Evernote. Hello Plain Text Notes
 wordpress_id: 194
-categories:
-- Tips
 tags:
+- Tips
 - Desktop
 - Online Service
 ---
