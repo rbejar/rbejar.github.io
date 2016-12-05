@@ -1,0 +1,24 @@
+---
+author: rbejar
+comments: true
+date: 2013-04-05 15:07:37+00:00
+layout: post
+link: http://www.rubenbejar.com/2013/04/a-cute-pug/
+slug: a-cute-pug
+title: A Cute Pug
+wordpress_id: 219
+categories:
+- Clip Art
+- Creative Commons
+tags:
+- dog
+- puppy
+---
+
+I am still rescuing old vector drawings and putting them in the public domain so you can do with them whatever you want. This time, it is a pug face I created with my graphics tablet. You can find it in [Open Clip Art Library](http://openclipart.org/) too.
+
+[nggallery id=4]
+
+[wpdm_file id=8]
+
+[CC0_1_0 work="Pug"]

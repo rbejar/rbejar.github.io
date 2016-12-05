@@ -1,0 +1,27 @@
+---
+author: rbejar
+comments: true
+date: 2013-03-23 21:50:07+00:00
+layout: post
+link: http://www.rubenbejar.com/2013/03/muffins/
+slug: muffins
+title: Muffins
+wordpress_id: 81
+categories:
+- Clip Art
+- Creative Commons
+tags:
+- SVG
+---
+
+A few vector muffins I have created to use in my own presentations. I am putting them in the public domain so you can do with them whatever you want. Attribution would be nice, but it is not required. You can find them in [Open Clip Art Library](http://openclipart.org/) too.
+
+[nggallery id=1]
+
+[wpdm_file id=1]
+
+
+
+[CC0_1_0 work="Muffins"]
+
+
