@@ -24,7 +24,10 @@ description: Rubén Béjar's Web Place
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  #Resources:
+  Research:    
+    - Academia: "https://unizar.academia.edu/rubejar"
+    - ResearchGate: "https://www.researchgate.net/profile/Ruben_Bejar"
+    - All publications: "http://iaaa.cps.unizar.es/showPublicationList.do?cid=paginas_personales.EN&qid=queryPersonPublications&replace=rbejar&personName=Rub%E9n%20B%E9jar%20Hern%E1ndez"    
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     #- Learn markdown: "http://www.markdowntutorial.com/"    
     #- GitHub Pages: "https://pages.github.com/"
