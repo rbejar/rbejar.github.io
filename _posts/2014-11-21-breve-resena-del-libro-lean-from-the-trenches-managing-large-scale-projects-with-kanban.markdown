@@ -7,14 +7,14 @@ link: http://www.rubenbejar.com/2014/11/breve-resena-del-libro-lean-from-the-tre
 slug: breve-resena-del-libro-lean-from-the-trenches-managing-large-scale-projects-with-kanban
 title: Breve reseña del libro "Lean from the Trenches. Managing Large-Scale Projects
   with Kanban"
+share-img: http://www.rubenbejar.com/img/share-img/LeanTrenches.jpg
 wordpress_id: 492
-categories:
+tags:
 - Agile methods
 - Book
 - Project Management
 - Software Engineering
 - University Teaching
-tags:
 - Informática
 - Kanban
 - Libro
@@ -44,3 +44,5 @@ Una organización que decida aplicar Kanban tendrá que decidir cómo encajar es
 Además de la experiencia con el proyecto, el libro también tiene una pequeña sección sobre técnicas, pero es cortita y la selección de temas parece un poco aleatoria.
 
 En resumen, un libro interesante, que se lee rápido, y que proporciona una visión desde dentro sobre el trabajo en proyectos de software moderadamente complejos siguiendo metodologías ágiles.
+
+![Portada](/img/thumbs/LeanTrenches.jpg)

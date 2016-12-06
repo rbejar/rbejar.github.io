@@ -8,10 +8,9 @@ slug: a-cute-pug
 title: A Cute Pug
 share-img: http://www.rubenbejar.com/img/share-img/pug.png
 wordpress_id: 219
-categories:
+tags:
 - Clip Art
 - Creative Commons
-tags:
 - dog
 - puppy
 ---

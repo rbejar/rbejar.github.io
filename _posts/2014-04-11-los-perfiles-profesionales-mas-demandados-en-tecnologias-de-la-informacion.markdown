@@ -6,11 +6,11 @@ layout: post
 link: http://www.rubenbejar.com/2014/04/los-perfiles-profesionales-mas-demandados-en-tecnologias-de-la-informacion/
 slug: los-perfiles-profesionales-mas-demandados-en-tecnologias-de-la-informacion
 title: Los perfiles profesionales más demandados en tecnologías de la información
+share-img: http://www.rubenbejar.com/img/share-img/Developer.jpg
 wordpress_id: 462
-categories:
+tags:
 - Programming
 - Software Engineering
-tags:
 - Informática
 - Ingeniería
 - Profesión

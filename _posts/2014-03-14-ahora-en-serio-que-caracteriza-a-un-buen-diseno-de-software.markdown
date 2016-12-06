@@ -6,11 +6,11 @@ layout: post
 link: http://www.rubenbejar.com/2014/03/ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software/
 slug: ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software
 title: 'Ahora en serio: ¿qué caracteriza a un buen diseño de software?'
+share-img: http://www.rubenbejar.com/img/share-img/Arq-Code.png
 wordpress_id: 435
-categories:
+tags:
 - Programming
 - Software Engineering
-tags:
 - Diseño de software
 - Programación
 ---

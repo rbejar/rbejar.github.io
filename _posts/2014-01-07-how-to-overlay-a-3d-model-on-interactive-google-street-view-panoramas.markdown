@@ -6,12 +6,13 @@ layout: post
 link: http://www.rubenbejar.com/2014/01/how-to-overlay-a-3d-model-on-interactive-google-street-view-panoramas/
 slug: how-to-overlay-a-3d-model-on-interactive-google-street-view-panoramas
 title: How to overlay a 3D model on interactive Google Street View panoramas
+share-img: http://www.rubenbejar.com/img/share-img/Noria.png
 wordpress_id: 401
 categories:
+tags:
 - Programming
 - Research
 - Tips
-tags:
 - three.js
 - webgl
 ---
@@ -28,4 +29,4 @@ The code is not a terrible mess, but it is not something to be terribly proud of
 
 Have fun!
 
-[![Ferris Wheel on Panorama](http://www.rubenbejar.com/wp-content/uploads/2014/01/Noria1-300x278.png)](http://rbejar.github.io/3DMappingExperiments/WebGLTests/StreetViewOverlay_EINA.html)
+![Ferris Wheel](/img/thumbs/Noria.png)

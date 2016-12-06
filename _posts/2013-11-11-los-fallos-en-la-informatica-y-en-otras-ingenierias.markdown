@@ -7,15 +7,14 @@ link: http://www.rubenbejar.com/2013/11/los-fallos-en-la-informatica-y-en-otras-
 slug: los-fallos-en-la-informatica-y-en-otras-ingenierias
 title: Los fallos en la informática y en otras ingenierías
 wordpress_id: 285
-categories:
-- Software Engineering
 tags:
+- Software Engineering
 - Diseño
 - Informática
 - Ingeniería
 ---
 
-Si has estudiado informática, seguro que en algún momento de la carrera te han contado la historia de algunos de los fallos más sonados, como [los fallos de especificación y diseño en el sistema de referencia inercial del cohete Ariane 501](http://www.ima.umn.edu/~arnold/disasters/ariane5rep.html) que provocaron que explotara unos 40 segundos después de ser lanzado, [una condición de carrera en el Therac-25](https://en.wikipedia.org/wiki/Therac-25), un acelerador lineal usado para radioterapia, que causó que se dieran dosis de radiación unas 100 veces superiores a las programadas para algunos pacientes, o el de la sonda [Mars Climate Orbiter](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter) que se desintegró durante la inserción orbital por un software que produjo un dato en libras por segundo en lugar de en Newtons por segundo como se había especificado (*).
+Si has estudiado informática, seguro que en algún momento de la carrera te han contado la historia de algunos de los fallos más sonados, como [los fallos de especificación y diseño en el sistema de referencia inercial del cohete Ariane 501](http://www.ima.umn.edu/~arnold/disasters/ariane5rep.html) que provocaron que explotara unos 40 segundos después de ser lanzado, [una condición de carrera en el Therac-25](https://en.wikipedia.org/wiki/Therac-25), un acelerador lineal usado para radioterapia, que causó que se dieran dosis de radiación unas 100 veces superiores a las programadas para algunos pacientes, o el de la sonda [Mars Climate Orbiter](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter) que se desintegró durante la inserción orbital por un software que produjo un dato en libras por segundo en lugar de en Newtons por segundo como se había especificado (1).
 
 Los sistemas informáticos están hoy en día en todas partes. Es difícil encontrar algo mínimamente complejo que no tenga al menos un microprocesador por algún sitio. Eso implica que con un porcentaje pequeño de sistemas que funcionen mal, el número total de fallos puede ser grande. Algunos llaman la atención, como [estos cajeros automáticos de Sydney que daban dinero](http://www.bbc.co.uk/news/world-asia-pacific-12606735), otros cuestan mucho dinero público, como [este sistema de gestión de casos que le costó al FBI 100 millones de dólares y nunca se usará](http://spectrum.ieee.org/computing/software/who-killed-the-virtual-case-file), o como el recientemente puesto en marcha [HealthCare.gov, plagado de problemas](http://www.pcworld.com/article/2061940/healthcaregovs-problems-what-we-know-so-far.html).
 
@@ -37,14 +36,14 @@ Ni la ingeniería civil, que podríamos considerar que tiene varios miles de añ
 
 Estoy bastante seguro de que las empresas detrás de estos proyectos cuentan con personal altamente cualificado formado en las mejores universidades, asesoramiento de expertos de todos los ámbitos, amplia experiencia, las mejores herramientas, millones de certificados de calidad, elaborados procesos de gestión, sesudas metodologías de análisis y diseño, complejos modelos matemáticos, larguísimos protocolos de pruebas, y que generaron toneladas de documentación mientras llevaban a cabo todos estos proyectos. Es decir, que lo hicieron bien, o tan bien como se sabe hacer un proyecto complejo y de largo plazo.
 
-También estoy bastante seguro de que si crees que la forma de trabajar de esas empresas, las cosas que he nombrado en el párrafo anterior, son adecuada, vas a convencerte muy rápido (**) de que es que no se aplicaron bien, o no se aplicaron lo suficiente, y que por eso fallaron. Y si por el contrario piensas que deberían hacer algo que no hicieron, vas a ver una prueba evidente de que fallaron por no hacerlo (***). En cualquier caso, seguiremos sin saber si los fallos son evitables o si son inherentes al diseño de sistemas complejos.
+También estoy bastante seguro de que si crees que la forma de trabajar de esas empresas, las cosas que he nombrado en el párrafo anterior, son adecuadas, vas a convencerte muy rápido (2) de que es que no se aplicaron bien, o no se aplicaron lo suficiente, y que por eso fallaron. Y si por el contrario piensas que deberían hacer algo que no hicieron, vas a ver una prueba evidente de que fallaron por no hacerlo (3). En cualquier caso, seguiremos sin saber si los fallos son evitables o si son inherentes al diseño de sistemas complejos.
 
 Me ha quedado un post más largo de lo que quería, pero espero que al menos sea entretenido. Hoy día los sistemas informáticos son casi ubicuos, y un buen porcentaje de ellos se encuentran en el [ámbito complejo](https://en.wikipedia.org/wiki/Cynefin). Puesto que el diseño de sistemas complejos es complejo, capitán obvio _dixit_, es de esperar que un buen número de sistemas informáticos presenten fallos, algunos de ellos graves, aunque el porcentaje sea pequeño con respecto del total. Espero que unos cuantos ejemplos de fallos en otras ingenierías nos ayuden a los informáticos a levantar la vista de nuestros teclados y a sospechar que, después de todo, la informática como disciplina no está tan mal como algunos nos han dicho.
 
 
 
-(*) Una explicación precisa y concreta del fallo que sin embargo no explica lo importante para que algo parecido no vuelva a pasar: ¿cómo pudo pasarse por alto algo que es tan obvio y sencillo de comprobar? Si en tu cabeza se está formando una explicación del tipo "Pues porque no usaron el método/técnica/herramienta X...", espera, no me lo cuentes a mi; creo que en la NASA y en Lockheed te agradecerán que vayas a iluminarles, si es posible con palabras sencillas.
+(1) Una explicación precisa y concreta del fallo que sin embargo no explica lo importante para que algo parecido no vuelva a pasar: ¿cómo pudo pasarse por alto algo que es tan obvio y sencillo de comprobar? Si en tu cabeza se está formando una explicación del tipo "Pues porque no usaron el método/técnica/herramienta X...", espera, no me lo cuentes a mi; creo que en la NASA y en Lockheed te agradecerán que vayas a iluminarles, si es posible con palabras sencillas.
 
-(**) Sospechosamente rápido; piénsalo un momento si queda algo de escéptico en ti.
+(2) Sospechosamente rápido; piénsalo un momento si queda algo de escéptico en ti.
 
-(***) Lo que es evidentemente un razonamiento falaz, pero las falacias que te dan la razón hablan con palabras muy dulces... x)
+(3) Lo que es evidentemente un razonamiento falaz, pero las falacias que te dan la razón hablan con palabras muy dulces... x)

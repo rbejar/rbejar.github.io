@@ -6,12 +6,12 @@ layout: post
 link: http://www.rubenbejar.com/2014/12/lapiceros-boligrafos-y-desarrollo-agil-de-software/
 slug: lapiceros-boligrafos-y-desarrollo-agil-de-software
 title: Lapiceros, bolígrafos y desarrollo ágil de software
+share-img: http://www.rubenbejar.com/img/share-img/PenPencil.png
 wordpress_id: 500
-categories:
+tags:
 - Agile methods
 - Project Management
 - Software Engineering
-tags:
 - Diseño de software
 ---
 

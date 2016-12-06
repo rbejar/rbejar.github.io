@@ -6,12 +6,12 @@ layout: post
 link: http://www.rubenbejar.com/2013/11/breve-resena-del-libro-essential-scrum/
 slug: breve-resena-del-libro-essential-scrum
 title: Breve reseña del libro "Essential Scrum..."
+share-img: http://www.rubenbejar.com/img/share-img/EssentialScrum.jpg
 wordpress_id: 362
-categories:
+tags:
 - Agile methods
 - Book
 - Project Management
-tags:
 - Scrum
 ---
 
@@ -24,3 +24,5 @@ El libro tampoco se esconde a la hora de hablar de temas donde Scrum no se mete,
 Para terminar, este libro tiene bastantes ejemplos, algunos más sintéticos que otros, y muchos diagramas explicativos, algunos de los cuales son excelentes formas de presentar, en un solo vistazo, algunas cosas que son moderadamente complejas.
 
 Me parece una gran opción como referencia práctica y realista sobre el uso de Scrum para cualquiera, tanto en el entorno profesional como en el académico.
+
+![Portada](/img/thumbs/EssentialScrum.jpg)

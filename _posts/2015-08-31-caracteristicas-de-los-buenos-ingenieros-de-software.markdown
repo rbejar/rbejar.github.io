@@ -6,12 +6,12 @@ layout: post
 link: http://www.rubenbejar.com/2015/08/caracteristicas-de-los-buenos-ingenieros-de-software/
 slug: caracteristicas-de-los-buenos-ingenieros-de-software
 title: Características de los buenos ingenieros de software
+share-img: http://www.rubenbejar.com/img/share-img/matrixface.jpg
 wordpress_id: 518
-categories:
+tags:
 - Research
 - Software Engineering
 - University Teaching
-tags:
 - Informática
 - Ingeniería
 - Profesión
