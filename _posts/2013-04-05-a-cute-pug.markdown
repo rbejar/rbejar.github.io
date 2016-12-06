@@ -18,4 +18,6 @@ tags:
 
 I am still rescuing old vector drawings and putting them in the public domain so you can do with them whatever you want. This time, it is a [pug face](/download/Pug_SVG.zip) I created with my graphics tablet. You can find it in [Open Clip Art Library](http://openclipart.org/) too.
 
+![Pug Face](/img/thumbs/pug.png)
+
 <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"> <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" /></a> To the extent possible under law, Rubén Béjar has waived all copyright and related or neighboring rights to Pug. This work is published from: Spain.
