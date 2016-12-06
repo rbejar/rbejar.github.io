@@ -121,7 +121,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      share-img: http://www.rubenbejar.com/img/share-img/2016_Sombra_Aula.jpg
+      share-img: "http://www.rubenbejar.com/img/share-img/2016_Sombra_Aula.jpg"
   -
     scope:
       path: "" # all files
