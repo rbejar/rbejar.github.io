@@ -9,4 +9,4 @@ title: About me
 wordpress_id: 2
 ---
 
-I am a Professor of Computer Science at the [Department of Computer Science and Systems Engineering](http://diis.unizar.es) of the [Universidad de Zaragoza](http://www.unizar.es), Spain.
+I am a Professor of Computer Science at the [Department of Computer Science and Systems Engineering](http://diis.unizar.es), and a Member of the [Aragón Institute of Engineering Research (I3A)](https://i3a.unizar.es), both of the [Universidad Zaragoza](http://www.unizar.es), Spain.
