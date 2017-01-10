@@ -1,5 +1,4 @@
 ---
-author: truegod
 comments: true
 date: 2013-03-19 16:22:16+00:00
 layout: page
