@@ -1,0 +1,32 @@
+---
+author: rbejar
+date: 2017-11-28
+layout: post
+title: ¿La API o el API?
+share-img: http://www.rubenbejar.com/img/share-img/pen.jpg
+tags:
+- Escritura
+- Español
+- Ingeniería Informática
+---
+
+Aunque no soy un *grammar nazi*, ni estoy capacitado para dar lecciones de castellano, sí que intento escribir y hablar con un mínimo de corrección. Los ingenieros informáticos trabajamos en un área que cambia con rapidez y en la que aparecen con frecuencia nuevos términos y acrónimos, normalmente en inglés. Es por eso que tendemos a usar muchos extranjerismos técnicos (y no técnicos, como se ha visto en este mismo párrafo).
+
+El que me ocupa hoy es el acrónimo API (*Application Programming Interface*, interfaz de programación de aplicaciones). Aunque la primera opción sería hispanizarlo, quedaría IPA, ahora mismo su uso está tan extendido que creo que lo más práctico es seguir usándolo como viene del inglés.
+
+Si decidimos mantenerlo, hay que integrarlo adecuadamente en el texto en castellano, lo que implica tener en cuenta la concordancia de género y número. Dos cosas quiero señalar principalmente:
+
+- Los acrónimos en español son invariables en la escritura —aunque hablando sí que añadimos una ese—. Deberíamos mantener esto y no escribir APIs ni API's.
+- Las siglas en español adoptan el género de la palabra que es su núcleo. Por ejemplo se dice «el FMI», porque es **el Fondo** Monetario Internacional. Cuando es un acrónimo no hispanizado, la práctica común —aunque no es universal— es usar el género que tendría la palabra núcleo si la tradujéramos al español. En este caso, la palabra *interface* se traduce como interfaz, que es una palabra femenina, así que deberíamos escribir «la API», «una API», «las API», «esas API» etc.
+
+Si a alguien le preocupa que al decir «la API», se viole la regla de que antes de una /a/ tónica deberíamos usar la forma «el» del artículo, no hay problema, las siglas son una excepción a esa regla.
+
+Y puesto que la palabra interfaz es de género femenino, lo que de ninguna manera podemos decir es «el interfaz».
+
+
+**Para más información**
+
+- [Sigla en el diccionario panhispánico de dudas de la RAE](http://lema.rae.es/dpd/?key=sigla).
+- [Siglas y acrónimos, claves de redacción; Fundéu BBVA](http://www.fundeu.es/recomendacion/siglas-y-acronimos-claves-de-redaccion/).
+- [¿La API o el API?; consulta a la Fundéu BBVA](http://www.fundeu.es/consulta/la-api-o-el-api-26405/).
+
