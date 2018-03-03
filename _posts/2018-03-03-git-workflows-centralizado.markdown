@@ -45,7 +45,7 @@ Evitadlo, o al menos consideradlo solo después de descartar otras opciones, par
 
 ## Conclusión
 
-Este post ya me ha quedado muy largo (muchos bloggers ya lo habrían dividido en dos o tres para "maximizar el impacto" o como sea que lo llamen x) así que voy a tener que dejar un breve análisis de otros workflows habituales para más adelante. De momento espero haber dejado claras al menos dos ideas:
+Este post ya me ha quedado muy largo (muchos blogueros ya lo habrían dividido en dos o tres para "maximizar el impacto" o como sea que lo llamen x) así que voy a tener que dejar un breve análisis de otros *workflows* habituales para más adelante. De momento espero haber dejado claras al menos dos ideas:
 
 - O tomáis las decisiones técnicas razonando entre alternativas razonables, o las decisiones técnicas os tomarán a vosotros. Y no queréis esto último.
 - El workflow centralizado, quizás con pequeñas variantes, es el mejor para determinados equipos en determinados proyectos. No lo menospreciéis solo por ser el más sencillo. La sencillez es una enorme virtud en los proyectos de ingeniería.
