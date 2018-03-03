@@ -41,7 +41,7 @@ No caigáis en la trampa de consider que este workflow es inadecuado porque "es 
 
 Tampoco caigáis en evitarlo por "no aprovechar bien que Git sea distribuido". Que Git es distribuido es una característica muy potente, pero no significa que haya que explotarla al máximo en cada proyecto. El *workflow* en espagueti, donde todos los desarrolladores crean las ramas que les apetece crear y las comparten directamente con quien quieren y cuando quieren se aprovecha muy bien de que Git es un sistema distribuido, pero es lo último que querrías para tu proyecto.
 
-Evitadlo, o al menos consideradlo solo después de descartar otras opciones, para proyectos grandes, con equipos distribuidos, con mmuchos contribuidores que solo son ocasionales, o cuando no necesitéis la integración continua ni la entrega continua. Hay *workflows* más adecuadas para esas circunstancias.
+Evitadlo, o al menos consideradlo solo después de descartar otras opciones, para proyectos grandes, con equipos distribuidos, con muchos contribuidores que solo son ocasionales, o cuando no necesitéis la integración continua ni la entrega continua. Hay *workflows* más adecuadas para esas circunstancias.
 
 ## Conclusión
 
