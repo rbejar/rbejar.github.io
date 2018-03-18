@@ -29,7 +29,7 @@ El riesgo es bastante mayor cuando hay varias personas trabajando en ramas de ca
 
 Estas *big bad integrations* tienen otros efectos secundarios. Por ejemplo, cada desarolladora tratará de minimizar los cambios que hace en su rama por miedo a que cualquiera de esos cambios suponga luego más trabajo al integrar. Pero eso implica que vamos a minimizar las refactorizaciones del código, lo que implica acumulación de [deuda técnica](https://www.martinfowler.com/bliki/TechnicalDebt.html) y, por tanto, problemas en el futuro.
 
-La práctica de la integración continua nace esencialmente para evitar este tipo de problemas. **Las ramas de características y la integración continua**, y por tanto la entrega o desplegue continuos, **son incompatibles**.  
+La práctica de la integración continua nace esencialmente para evitar este tipo de problemas. **Las ramas de características y la integración continua**, y por tanto la entrega o despliegue continuos, **son incompatibles**.  
 
 
 ### Integración promiscua
