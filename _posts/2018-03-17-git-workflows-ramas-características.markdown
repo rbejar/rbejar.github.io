@@ -67,7 +67,6 @@ Con cosas que he mencionado solo de pasada en este post se podrían escribir uno
 Lo más importante que dice este post es que **apoyarnos solo en el sistema de control de versiones para resolver problemas que son de diseño y de operaciones del software y de gestión del proyecto es mala idea**. Las ramas de características tienen su utilidad, especialmente cuando no necesitas hacer integración continua, cuando tienen una vida no muy larga y cuando no tienes muchas al mismo tiempo. Si te encuentras usándolas para más que esto, es posible que en realidad tengas un problema de arquitectura, de operaciones o de gestión del proyecto del que no eres consciente. 
 
 
-
 **Para más información**
 
 - ["Feature Branch" by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html).
