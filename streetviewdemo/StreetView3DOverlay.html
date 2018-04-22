@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Street View Overlay - EINA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				margin: 0px;
+				overflow: hidden;
+			}
+			p {
+			    font-family:sans-serif;
+			    font-size:11px;
+			    font-weight:bold;
+			    color:#111111;
+			}
+		</style>
+		<!--
+		StreetViewOverlay_EINA.html - 3D Data on Google Street View Visualization
+		Copyright (C) 2018 Rubén Béjar {http://www.rubenbejar.com/}
+    
+		Permission is hereby granted, free of charge, to any person obtaining a copy of
+		this software and associated documentation files (the "Software"), to deal in
+		the Software without restriction, including without limitation the rights to
+		use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+		the Software, and to permit persons to whom the Software is furnished to do so,
+		subject to the following conditions:
+
+		The above copyright notice and this permission notice shall be included in all
+		copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+		IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+		FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+		COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+		IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+		CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+		-->
+	</head>
+	<body>
+
+        		
+        <div id="streetviewpano" style="position: absolute; top:0; bottom:0; left:0; right:0; z-index: 0">  
+        </div>
+        <!-- giving a margin in the bottom allows for Google links to work, but it creates some
+        problems: I have needed a couple of hacks to prevent problems when the users pan on the
+        margin (because that panning goes directly to the streetView control and not to my
+        event listeners). It also makes the 3d model "disappear" on that part of the screen.
+        And other problem is that the 3d model is sligthly misplaced (the 
+        renderer div should have the same size and position of the panorama div to). As the position
+        of the 3D model is not precise anyway, this is not a major issue for now -->  
+        <div id="container" style="position: absolute; top:0; bottom:20px; left: 0; right: 0; z-index: 5000;">
+        </div>
+        <div id="help" style="position: absolute; top:0; width:100; right:4px; z-index: 100000">
+        <p>Works at least in the latest version of Firefox in Windows, Linux and MacOS X</p>
+        <p>and in the latest versions of Chrome/ium in Linux and Windows.</p>
+        <p>WebGL support is not required, but desirable.</p>
+        <p>Rotate with the mouse, Zoom with the wheel.</p>
+        <p>Spacebar to change panorama (among a fixed set of them).</p>
+        <p><a style="color:#B04F00;" href="http://www.rubenbejar.com" target="_blank"><b>rubenbejar</b>.com</a></p>
+        </div>
+
+		
+		<!-- We do not use a sensor to establish the location of the user: 
+		     must make explicit, license issue -->        
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyAhqyKiV5qxzadsQSCXcJEvudB9BzTOjt4"></script>
+        
+        <script src="lib/jquery-2.0.3.js"></script>
+        <script src="lib/jquery.mousewheel.js"></script>
+	<script src="lib/three.min.js"></script>	
+	<script src="lib/TDSLoader.js"></script>
+	<script src="lib/Detector.js"></script>		
+	<script src="src/streetviewoverlay.js"></script>
+
+	<script>
+		
+            
+        // Translates degrees to meters. It is just a hack, not a proper projection.
+        // originLat and originLon should be the "center" of our area of interest or
+        // close to it    
+        function hackMapProjection(lat, lon, originLat, originLon) {
+            var lonCorrection = 1.5;
+            var rMajor = 6378137.0;
+        
+            function lonToX(lon) {
+                return rMajor * (lon * Math.PI / 180);
+            }
+        
+            function latToY(lat) {
+                if (lat === 0) {
+                    return 0;
+                } else {
+                    return rMajor * Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI / 180) / 2));
+                }
+            }
+            
+            var x = lonToX(lon - originLon) / lonCorrection;            
+            var y = latToY(lat - originLat);            
+            return {'x': x, 'y': y};
+        }
+        
+        
+        function latLon2ThreeMeters(lat, lon, worldOrigin) {            
+            var xy = hackMapProjection(lat, lon, worldOrigin[0], worldOrigin[1]);                     
+            return {'x': xy.x, 'y': 0, 'z': -xy.y};
+        }
+        
+	
+								
+	function loadWheel ( object ) {
+		object.receiveShadow = true; 
+		
+		var bbox = new THREE.Box3().setFromObject(object);
+		
+		var xsize = bbox.max.x - bbox.min.x;
+		var ysize = bbox.max.y - bbox.min.y;
+		var zsize = bbox.max.z - bbox.min.z;				
+		
+		// Sizes in meters
+		var desiredXSize = 8.0;
+		var desiredYSize = 20.0; 
+		var desiredZSize = 20.0; 
+					
+		object.scale.set(desiredXSize / xsize, desiredYSize / ysize, desiredZSize / zsize);								
+				
+		object.position.set(meshPos.x, meshPos.y, meshPos.z); // the parking lot is sligthly under the street level			
+				
+		object.rotation.set(-Math.PI/2, 0, Math.PI/2);						
+
+		// For shadows (given the right ligths, and that renderer enables them)
+		object.castShadow = true;		    
+		
+		var streetViewOverlay = StreetViewOverlay();
+		// 41.684196,-0.888992 is a street close to the parking lot behind Ada Byron building
+		streetViewOverlay.load({streetView: true, objects3D: true, webGL:true}, object, 41.684196, -0.888992, worldOrigin);     
+	}
+	
+	// On the parking lot behind Ada Byron building	
+        var objectPosition = [41.684561,-0.888864];
+        var worldOrigin = [41.684561,-0.888864];
+        var meshPos =  {'x': 0, 'y': -2, 'z': 0}; // We take the position of the 3d object as the center of the world, so its position will be 0,-2,0
+	
+	var loader = new THREE.TDSLoader( );
+	loader.setPath( 'model3d/' );
+	loader.load( 'model3d/wheel.3ds', loadWheel );
+	</script>
+	</body>
+</html>
