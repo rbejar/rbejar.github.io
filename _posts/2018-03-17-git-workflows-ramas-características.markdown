@@ -29,7 +29,7 @@ El riesgo es bastante mayor cuando hay varias personas trabajando en ramas de ca
 
 Estas *big bad integrations* tienen otros efectos secundarios. Por ejemplo, cada desarolladora tratará de minimizar los cambios que hace en su rama por miedo a que cualquiera de esos cambios suponga luego más trabajo al integrar. Pero eso implica que vamos a minimizar las refactorizaciones del código, lo que implica acumulación de [deuda técnica](https://www.martinfowler.com/bliki/TechnicalDebt.html) y, por tanto, problemas en el futuro.
 
-La práctica de la integración continua nace esencialmente para evitar este tipo de problemas. **Las ramas de características y la integración continua**, y por tanto la entrega o desplegue continuos, **son incompatibles**.  
+La práctica de la integración continua nace esencialmente para evitar este tipo de problemas. **Las ramas de características y la integración continua**, y por tanto la entrega o despliegue continuos, **son incompatibles**.  
 
 
 ### Integración promiscua
@@ -65,7 +65,6 @@ Si lo que tienes que hacer es una actualización importante del código y está 
 Con cosas que he mencionado solo de pasada en este post se podrían escribir unos cuantos capítulos de un libro, así que además de los enlaces que he puesto debajo algunas cosas más para leer.
 
 Lo más importante que dice este post es que **apoyarnos solo en el sistema de control de versiones para resolver problemas que son de diseño y de operaciones del software y de gestión del proyecto es mala idea**. Las ramas de características tienen su utilidad, especialmente cuando no necesitas hacer integración continua, cuando tienen una vida no muy larga y cuando no tienes muchas al mismo tiempo. Si te encuentras usándolas para más que esto, es posible que en realidad tengas un problema de arquitectura, de operaciones o de gestión del proyecto del que no eres consciente. 
-
 
 
 **Para más información**
