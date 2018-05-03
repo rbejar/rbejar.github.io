@@ -3,7 +3,7 @@ author: rbejar
 date: 2018-03-17
 layout: post
 title: "Los workflows de Git (II): ramas de características"
-share-img: {{base.url}}/img/share-img/GitMerge.png
+share-img: /img/share-img/GitMerge.png
 tags:
 - Git
 - Gestión
