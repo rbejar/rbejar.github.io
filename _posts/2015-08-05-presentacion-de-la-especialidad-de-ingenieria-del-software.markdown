@@ -3,7 +3,7 @@ author: rbejar
 comments: true
 date: 2015-08-05 17:46:02+00:00
 layout: post
-link: http://www.rubenbejar.com/2015/08/presentacion-de-la-especialidad-de-ingenieria-del-software/
+link: https://www.rubenbejar.com/2015/08/presentacion-de-la-especialidad-de-ingenieria-del-software/
 slug: presentacion-de-la-especialidad-de-ingenieria-del-software
 title: Presentación de la especialidad en Ingeniería del Software
 wordpress_id: 513

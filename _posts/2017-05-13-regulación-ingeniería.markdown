@@ -3,7 +3,7 @@ author: rbejar
 date: 2017-05-13
 layout: post
 title: La regulación de la ingeniería informática
-share-img: http://www.rubenbejar.com/img/share-img/SoftwareDesigner.jpg
+share-img: https://www.rubenbejar.com/img/share-img/SoftwareDesigner.jpg
 tags:
 - Regulación
 - Profesión

@@ -5,7 +5,7 @@ date: 2016-12-11
 layout: post
 title: Documentación ágil de decisiones de diseño
 subtitle: Architecture Decision Records (ADRs)
-share-img: http://www.rubenbejar.com/img/share-img/Arq-Code.png
+share-img: https://www.rubenbejar.com/img/share-img/Arq-Code.png
 tags:
 - Agile methods
 - Software Engineering

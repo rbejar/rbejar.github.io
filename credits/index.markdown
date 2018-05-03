@@ -3,7 +3,7 @@ author: truegod
 comments: true
 date: 2013-03-21 22:23:37+00:00
 layout: page
-link: http://www.rubenbejar.com/credits/
+link: https://www.rubenbejar.com/credits/
 slug: credits
 title: Credits
 wordpress_id: 56

@@ -3,11 +3,11 @@ author: rbejar
 comments: true
 date: 2013-12-14 12:56:27+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/12/los-portatiles-para-tomar-notas-en-clase-una-distraccion-hasta-para-quienes-no-los-usan/
+link: https://www.rubenbejar.com/2013/12/los-portatiles-para-tomar-notas-en-clase-una-distraccion-hasta-para-quienes-no-los-usan/
 slug: los-portatiles-para-tomar-notas-en-clase-una-distraccion-hasta-para-quienes-no-los-usan
 title: 'Los portátiles para tomar notas en clase: una distracción hasta para quienes
   no los usan'
-share-img: http://www.rubenbejar.com/img/share-img/laptop_lecture.jpg
+share-img: https://www.rubenbejar.com/img/share-img/laptop_lecture.jpg
 wordpress_id: 383
 tags:
 - University Teaching

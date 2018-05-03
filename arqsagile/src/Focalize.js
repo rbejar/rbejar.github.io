@@ -1,6 +1,6 @@
 /*
     Focalize.js - Dynamic HTML5 presentations
-    Copyright (C) 2013 Rubén Béjar {http://www.rubenbejar.com/}
+    Copyright (C) 2013 Rubén Béjar {https://www.rubenbejar.com/}
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

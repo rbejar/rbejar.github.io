@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2014-12-04 15:29:05+00:00
 layout: post
-link: http://www.rubenbejar.com/2014/12/lapiceros-boligrafos-y-desarrollo-agil-de-software/
+link: https://www.rubenbejar.com/2014/12/lapiceros-boligrafos-y-desarrollo-agil-de-software/
 slug: lapiceros-boligrafos-y-desarrollo-agil-de-software
 title: Lapiceros, bolígrafos y desarrollo ágil de software
-share-img: http://www.rubenbejar.com/img/share-img/PenPencil.png
+share-img: https://www.rubenbejar.com/img/share-img/PenPencil.png
 wordpress_id: 500
 tags:
 - Agile methods
@@ -23,4 +23,4 @@ En muchas pinturas de los grandes maestros se pueden "ver" (con las técnicas ad
 
 Es interesante conocer también la técnica del _sfumato_, que consiste en aplicar muchas capas muy finas de pintura que se van difuminando para conseguir un resultado que, por ejemplo, [Leonardo da Vinci usó en La Gioconda](http://francis.naukas.com/2010/08/04/los-secretos-del-sfumato-de-leonardo-da-vinci-en-la-gioconda-desvelados-gracias-a-la-radiacion-sincrotron/). El resultado no se puede conseguir de otra forma: **este proceso es, por su propia naturaleza, iterativo**.
 
-¿Qué esto no tiene nada que ver con el desarrollo ágil de software? Este post trata del fracaso de las metodologías en cascada (el boli), de la necesidad de hacer prototipos para aprender algo que no se sabe (bocetos), de la necesidad de reaccionar ante el _feedback_ que proporcionan los clientes y la imposibilidad de planificar todo por adelantado (_pentimento_), y de trabajo iterativo (_sfumato_).  El [desarrollo de software es diseño](http://www.rubenbejar.com/2014/03/ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software/), el diseño requiere creatividad y la creatividad necesita herramientas expresivas, pruebas y arrepentimientos, bocetos, iteraciones, saber escuchar y saber reaccionar. Esto es desarrollo ágil de software.
+¿Qué esto no tiene nada que ver con el desarrollo ágil de software? Este post trata del fracaso de las metodologías en cascada (el boli), de la necesidad de hacer prototipos para aprender algo que no se sabe (bocetos), de la necesidad de reaccionar ante el _feedback_ que proporcionan los clientes y la imposibilidad de planificar todo por adelantado (_pentimento_), y de trabajo iterativo (_sfumato_).  El [desarrollo de software es diseño](https://www.rubenbejar.com/2014/03/ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software/), el diseño requiere creatividad y la creatividad necesita herramientas expresivas, pruebas y arrepentimientos, bocetos, iteraciones, saber escuchar y saber reaccionar. Esto es desarrollo ágil de software.

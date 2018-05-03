@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2013-04-05 15:07:37+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/04/a-cute-pug/
+link: https://www.rubenbejar.com/2013/04/a-cute-pug/
 slug: a-cute-pug
 title: A Cute Pug
-share-img: http://www.rubenbejar.com/img/share-img/pug.png
+share-img: https://www.rubenbejar.com/img/share-img/pug.png
 wordpress_id: 219
 tags:
 - Clip Art

@@ -3,7 +3,7 @@ author: rbejar
 comments: true
 date: 2013-04-06 16:30:59+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/04/icon-tasks-plasmoid-and-libreoffice-4-0-applications/
+link: https://www.rubenbejar.com/2013/04/icon-tasks-plasmoid-and-libreoffice-4-0-applications/
 slug: icon-tasks-plasmoid-and-libreoffice-4-0-applications
 title: KDE Icon-Only Task Manager and LibreOffice 4.0 Applications
 wordpress_id: 236

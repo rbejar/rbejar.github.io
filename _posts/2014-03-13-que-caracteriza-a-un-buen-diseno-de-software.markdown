@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2014-03-13 13:47:51+00:00
 layout: post
-link: http://www.rubenbejar.com/2014/03/que-caracteriza-a-un-buen-diseno-de-software/
+link: https://www.rubenbejar.com/2014/03/que-caracteriza-a-un-buen-diseno-de-software/
 slug: que-caracteriza-a-un-buen-diseno-de-software
 title: ¿Qué caracteriza a un buen diseño de software?
-share-img: http://www.rubenbejar.com/img/share-img/SoftwareWellDesigned.png
+share-img: https://www.rubenbejar.com/img/share-img/SoftwareWellDesigned.png
 wordpress_id: 414
 tags:
 - Programming
@@ -27,7 +27,7 @@ Que un software tenga un buen diseño interesa a sus desarrolladores presentes y
 
 Un buen diseño de software nos debe ayudar a construir aplicaciones con características positivas que puedan ser percibidas por sus usuarios (un buen software), pero **ni un buen diseño garantiza un buen software, ni un buen software implica siempre un buen diseño.** Lo que caracteriza a un buen diseño de software es muy distinto de lo que caracteriza a una buena aplicación. Ambas cosas se confunden con frecuencia porque están relacionadas, pero tenemos que ser capaces de distinguirlas porque **difícilmente podremos hacer buenos diseños si no sabemos distinguir qué los caracteriza, y difícilmente podremos hacer buen software si pensamos que para ello nos basta con hacer un buen diseño**.
 
-En la [próxima entrada del blog](http://www.rubenbejar.com/2014/03/ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software/) hablaremos un poco más de las características de un buen diseño de software y llegaremos a una conclusión que a algunos puede que os sorprenda.
+En la [próxima entrada del blog](https://www.rubenbejar.com/2014/03/ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software/) hablaremos un poco más de las características de un buen diseño de software y llegaremos a una conclusión que a algunos puede que os sorprenda.
 
 
 

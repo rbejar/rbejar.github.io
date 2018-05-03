@@ -2,7 +2,7 @@
 comments: true
 date: 2017-06-04
 layout: page
-link: http://www.rubenbejar.com/about-me/
+link: https://www.rubenbejar.com/about-me/
 slug: about-me
 title: About me
 wordpress_id: 2

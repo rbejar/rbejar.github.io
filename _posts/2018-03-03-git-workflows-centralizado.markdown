@@ -3,7 +3,7 @@ author: rbejar
 date: 2018-03-03
 layout: post
 title: "Los workflows de Git (I): el injustamente menospreciado workflow centralizado"
-share-img: http://www.rubenbejar.com/img/share-img/GitMerge.png
+share-img: https://www.rubenbejar.com/img/share-img/GitMerge.png
 tags:
 - Git
 - Gestión

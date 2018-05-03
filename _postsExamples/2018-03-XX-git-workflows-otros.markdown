@@ -3,7 +3,7 @@ author: rbejar
 date: 2018-03-11
 layout: post
 title: "Los workflows de Git (III): lo que sea"
-share-img: http://www.rubenbejar.com/img/share-img/GitMerge.png
+share-img: https://www.rubenbejar.com/img/share-img/GitMerge.png
 tags:
 - Git
 - Gestión

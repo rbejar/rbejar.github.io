@@ -3,7 +3,7 @@ author: rbejar
 comments: true
 date: 2013-11-11 21:36:44+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/11/los-fallos-en-la-informatica-y-en-otras-ingenierias/
+link: https://www.rubenbejar.com/2013/11/los-fallos-en-la-informatica-y-en-otras-ingenierias/
 slug: los-fallos-en-la-informatica-y-en-otras-ingenierias
 title: Los fallos en la informática y en otras ingenierías
 wordpress_id: 285

@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2013-04-15 13:39:35+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/04/programar-no-es-poner-ladrillos/
+link: https://www.rubenbejar.com/2013/04/programar-no-es-poner-ladrillos/
 slug: programar-no-es-poner-ladrillos
 title: Programar no es poner ladrillos
-share-img: http://www.rubenbejar.com/img/share-img/pNoBrickspng.png
+share-img: https://www.rubenbejar.com/img/share-img/pNoBrickspng.png
 wordpress_id: 264
 tags:
 - Programming

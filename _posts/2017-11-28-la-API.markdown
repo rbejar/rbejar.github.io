@@ -3,7 +3,7 @@ author: rbejar
 date: 2017-11-28
 layout: post
 title: ¿La API o el API?
-share-img: http://www.rubenbejar.com/img/share-img/pen.jpg
+share-img: https://www.rubenbejar.com/img/share-img/pen.jpg
 tags:
 - Escritura
 - Español

@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2013-12-02 18:12:00+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/12/concursos-para-desarrollo-de-software-el-mejor-proveedor-no-es-el-mas-barato/
+link: https://www.rubenbejar.com/2013/12/concursos-para-desarrollo-de-software-el-mejor-proveedor-no-es-el-mas-barato/
 slug: concursos-para-desarrollo-de-software-el-mejor-proveedor-no-es-el-mas-barato
 title: 'Concursos para desarrollo de software: el mejor proveedor no es el más barato'
-share-img: http://www.rubenbejar.com/img/share-img/saco.png
+share-img: https://www.rubenbejar.com/img/share-img/saco.png
 wordpress_id: 365
 tags:
 - Project Management

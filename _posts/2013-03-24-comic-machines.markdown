@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2013-03-24 18:45:01+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/03/comic-machines/
+link: https://www.rubenbejar.com/2013/03/comic-machines/
 slug: comic-machines
 title: Comic Machines
-share-img: http://www.rubenbejar.com/img/share-img/comicmachine1.png
+share-img: https://www.rubenbejar.com/img/share-img/comicmachine1.png
 wordpress_id: 141
 tags:
 - Clip Art

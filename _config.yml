@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://www.rubenbejar.com"
+url: "https://www.rubenbejar.com"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -119,7 +119,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      share-img: "http://www.rubenbejar.com/img/share-img/2016_Sombra_Aula.jpg"
+      share-img: "https://www.rubenbejar.com/img/share-img/2016_Sombra_Aula.jpg"
   -
     scope:
       path: "" # all files

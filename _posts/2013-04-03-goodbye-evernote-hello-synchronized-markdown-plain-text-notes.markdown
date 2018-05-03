@@ -3,7 +3,7 @@ author: rbejar
 comments: true
 date: 2013-04-03 18:30:42+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/04/goodbye-evernote-hello-synchronized-markdown-plain-text-notes/
+link: https://www.rubenbejar.com/2013/04/goodbye-evernote-hello-synchronized-markdown-plain-text-notes/
 slug: goodbye-evernote-hello-synchronized-markdown-plain-text-notes
 title: Goodbye Evernote. Hello Plain Text Notes
 wordpress_id: 194

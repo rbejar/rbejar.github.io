@@ -1,6 +1,6 @@
 /**
     streetviewoverlay.js - 3D Data on Google Street View Visualization
-    Copyright (C) 2018 Rubén Béjar {http://www.rubenbejar.com/}
+    Copyright (C) 2018 Rubén Béjar {https://www.rubenbejar.com/}
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the "Software"), to deal in

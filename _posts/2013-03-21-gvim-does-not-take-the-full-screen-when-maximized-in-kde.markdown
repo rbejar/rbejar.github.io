@@ -3,7 +3,7 @@ author: rbejar
 comments: true
 date: 2013-03-21 21:53:52+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/03/gvim-does-not-take-the-full-screen-when-maximized-in-kde/
+link: https://www.rubenbejar.com/2013/03/gvim-does-not-take-the-full-screen-when-maximized-in-kde/
 slug: gvim-does-not-take-the-full-screen-when-maximized-in-kde
 title: GVim Does not Take the Full Screen When Maximized in KDE. Solved
 wordpress_id: 52

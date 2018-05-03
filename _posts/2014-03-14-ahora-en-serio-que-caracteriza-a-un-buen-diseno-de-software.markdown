@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2014-03-14 16:06:45+00:00
 layout: post
-link: http://www.rubenbejar.com/2014/03/ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software/
+link: https://www.rubenbejar.com/2014/03/ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software/
 slug: ahora-en-serio-que-caracteriza-a-un-buen-diseno-de-software
 title: 'Ahora en serio: ¿qué caracteriza a un buen diseño de software?'
-share-img: http://www.rubenbejar.com/img/share-img/Arq-Code.png
+share-img: https://www.rubenbejar.com/img/share-img/Arq-Code.png
 wordpress_id: 435
 tags:
 - Programming
@@ -15,7 +15,7 @@ tags:
 - Programación
 ---
 
-En [la última entrada del blog](http://www.rubenbejar.com/2014/03/que-caracteriza-a-un-buen-diseno-de-software/) hablábamos sobre la importancia de distinguir entre software bien diseñado y software bueno, y señalábamos como a menudo se confunden las dos cosas (que están relacionadas pero son muy diferentes). Sin embargo apenas mencionábamos de pasada algunas de las características que debe tener un diseño de software para que lo consideremos bueno.
+En [la última entrada del blog](https://www.rubenbejar.com/2014/03/que-caracteriza-a-un-buen-diseno-de-software/) hablábamos sobre la importancia de distinguir entre software bien diseñado y software bueno, y señalábamos como a menudo se confunden las dos cosas (que están relacionadas pero son muy diferentes). Sin embargo apenas mencionábamos de pasada algunas de las características que debe tener un diseño de software para que lo consideremos bueno.
 
 Creo que es buena idea que empecemos por un problema que parece más conocido: ¿qué caracteriza a un buen código fuente? Algunas posibles respuestas (ni exhaustivas, ni totalmente independientes unas de otras):
 
@@ -65,7 +65,7 @@ Espero que se aprecie el paralelismo.  ;-)
 
 Podríamos añadir más cosas, y es evidente que encontraríamos algunas diferencias, pero **una vez hemos separado las características de un buen diseño de las de un buen software** (lo que hicimos en el post anterior) se aprecia mejor que **lo que caracteriza a un buen diseño es muy similar a lo que caracteriza a un buen código fuente**.
 
-¿Sorprendidos? No deberíais. Como ya hemos visto en otras ocasiones, [programar es diseñar](http://www.rubenbejar.com/2013/10/breve-resena-del-libro-the-pragmatic-programmer/), y [el código fuente es diseño](http://www.rubenbejar.com/2013/04/programar-no-es-poner-ladrillos/). Y como es lógico, si el código fuente es diseño, lo que caracterice a un buen código fuente también caracterizará a un buen diseño.
+¿Sorprendidos? No deberíais. Como ya hemos visto en otras ocasiones, [programar es diseñar](https://www.rubenbejar.com/2013/10/breve-resena-del-libro-the-pragmatic-programmer/), y [el código fuente es diseño](https://www.rubenbejar.com/2013/04/programar-no-es-poner-ladrillos/). Y como es lógico, si el código fuente es diseño, lo que caracterice a un buen código fuente también caracterizará a un buen diseño.
 
 
 

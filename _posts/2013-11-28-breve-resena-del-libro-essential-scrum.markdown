@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2013-11-28 15:52:20+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/11/breve-resena-del-libro-essential-scrum/
+link: https://www.rubenbejar.com/2013/11/breve-resena-del-libro-essential-scrum/
 slug: breve-resena-del-libro-essential-scrum
 title: Breve reseña del libro "Essential Scrum..."
-share-img: http://www.rubenbejar.com/img/share-img/EssentialScrum.jpg
+share-img: https://www.rubenbejar.com/img/share-img/EssentialScrum.jpg
 wordpress_id: 362
 tags:
 - Agile methods

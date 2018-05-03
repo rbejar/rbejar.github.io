@@ -3,11 +3,11 @@ author: rbejar
 comments: true
 date: 2014-11-21 16:47:19+00:00
 layout: post
-link: http://www.rubenbejar.com/2014/11/breve-resena-del-libro-lean-from-the-trenches-managing-large-scale-projects-with-kanban/
+link: https://www.rubenbejar.com/2014/11/breve-resena-del-libro-lean-from-the-trenches-managing-large-scale-projects-with-kanban/
 slug: breve-resena-del-libro-lean-from-the-trenches-managing-large-scale-projects-with-kanban
 title: Breve reseña del libro "Lean from the Trenches. Managing Large-Scale Projects
   with Kanban"
-share-img: http://www.rubenbejar.com/img/share-img/LeanTrenches.jpg
+share-img: https://www.rubenbejar.com/img/share-img/LeanTrenches.jpg
 wordpress_id: 492
 tags:
 - Agile methods

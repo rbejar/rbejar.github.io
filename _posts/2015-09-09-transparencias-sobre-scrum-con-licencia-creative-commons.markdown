@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2015-09-09 12:36:56+00:00
 layout: post
-link: http://www.rubenbejar.com/2015/09/transparencias-sobre-scrum-con-licencia-creative-commons/
+link: https://www.rubenbejar.com/2015/09/transparencias-sobre-scrum-con-licencia-creative-commons/
 slug: transparencias-sobre-scrum-con-licencia-creative-commons
 title: Transparencias sobre Scrum con licencia Creative Commons
-share-img: http://www.rubenbejar.com/img/share-img/ScrumBoard.png
+share-img: https://www.rubenbejar.com/img/share-img/ScrumBoard.png
 wordpress_id: 526
 categories:
 - Agile methods

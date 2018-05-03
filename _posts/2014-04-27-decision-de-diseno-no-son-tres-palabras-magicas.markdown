@@ -3,7 +3,7 @@ author: rbejar
 comments: true
 date: 2014-04-27 09:26:15+00:00
 layout: post
-link: http://www.rubenbejar.com/2014/04/decision-de-diseno-no-son-tres-palabras-magicas/
+link: https://www.rubenbejar.com/2014/04/decision-de-diseno-no-son-tres-palabras-magicas/
 slug: decision-de-diseno-no-son-tres-palabras-magicas
 title: '"Decisión de diseño" no son tres palabras mágicas'
 wordpress_id: 481

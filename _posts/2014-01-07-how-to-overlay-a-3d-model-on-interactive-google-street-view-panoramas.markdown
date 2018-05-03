@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2014-01-07 16:05:03+00:00
 layout: post
-link: http://www.rubenbejar.com/2014/01/how-to-overlay-a-3d-model-on-interactive-google-street-view-panoramas/
+link: https://www.rubenbejar.com/2014/01/how-to-overlay-a-3d-model-on-interactive-google-street-view-panoramas/
 slug: how-to-overlay-a-3d-model-on-interactive-google-street-view-panoramas
 title: How to overlay a 3D model on interactive Google Street View panoramas
-share-img: http://www.rubenbejar.com/img/share-img/Noria.png
+share-img: https://www.rubenbejar.com/img/share-img/Noria.png
 wordpress_id: 401
 categories:
 tags:

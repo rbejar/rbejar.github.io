@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2013-07-22 20:54:30+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/07/breve-resena-del-libro-javascript-the-good-parts/
+link: https://www.rubenbejar.com/2013/07/breve-resena-del-libro-javascript-the-good-parts/
 slug: breve-resena-del-libro-javascript-the-good-parts
 title: 'Breve reseña del libro "JavaScript: The Good Parts"'
-share-img: http://www.rubenbejar.com/img/share-img/JavaScriptGood.jpg
+share-img: https://www.rubenbejar.com/img/share-img/JavaScriptGood.jpg
 wordpress_id: 308
 tags:
 - Book

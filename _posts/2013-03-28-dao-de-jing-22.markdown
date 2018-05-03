@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2013-03-28 19:26:06+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/03/dao-de-jing-22/
+link: https://www.rubenbejar.com/2013/03/dao-de-jing-22/
 slug: dao-de-jing-22
 title: Dao De Jing (ch. 22)
-share-img: http://www.rubenbejar.com/img/share-img/tao.png
+share-img: https://www.rubenbejar.com/img/share-img/tao.png
 wordpress_id: 158
 tags:
 - Daoism

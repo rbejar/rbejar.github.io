@@ -3,10 +3,10 @@ author: rbejar
 comments: true
 date: 2013-03-23 21:50:07+00:00
 layout: post
-link: http://www.rubenbejar.com/2013/03/muffins/
+link: https://www.rubenbejar.com/2013/03/muffins/
 slug: muffins
 title: Muffins
-share-img: http://www.rubenbejar.com/img/share-img/chocolatechipsmuffin.png
+share-img: https://www.rubenbejar.com/img/share-img/chocolatechipsmuffin.png
 wordpress_id: 81
 tags:
 - Clip Art
