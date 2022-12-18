@@ -50,9 +50,11 @@ author:
   #xing: yourname      
   #stackoverflow: yourlink  # eg. "3943160/daattali"
   #snapchat: yourname  
-  #instagram: yourname 
+  instagram: rubejar
   #youtube: yourlink   # eg. user/daattali or channel/daattali
-  #spotify: yourname   
+  #spotify: yourname
+  mastodon: mastodon.social/@rubejar
+  telegram: rubejar
 
 # Select which links to show in the footer
 footer-links-active:
@@ -67,9 +69,11 @@ footer-links-active:
   xing: false
   stackoverflow: false
   snapchat: false
-  instagram: false
+  instagram: true
   youtube: false
   spotify: false
+  mastodon: true
+  telegram: true
 
 # Select which share links to show in posts
 share-links-active:
