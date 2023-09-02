@@ -53,8 +53,7 @@ author:
   instagram: rubejar
   #youtube: yourlink   # eg. user/daattali or channel/daattali
   #spotify: yourname
-  mastodon: mastodon.social/@rubejar
-  telegram: rubejar
+  mastodon: mastodon.social/@rubejar  
 
 # Select which links to show in the footer
 footer-links-active:
@@ -73,7 +72,7 @@ footer-links-active:
   youtube: false
   spotify: false
   mastodon: true
-  telegram: true
+  telegram: false
 
 # Select which share links to show in posts
 share-links-active:
